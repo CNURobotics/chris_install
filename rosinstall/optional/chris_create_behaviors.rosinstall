@@ -1,0 +1,9 @@
+- git: {local-name: src/flexbe_behavior_engine,            uri: 'https://github.com/team-vigir/flexbe_behavior_engine.git',                  version: master }
+- git: {local-name: src/generic_flexbe_states,             uri: 'https://github.com/FlexBE/generic_flexbe_states.git',                       version: master }
+- git: {local-name: src/rosbridge_suite,                   uri: 'https://github.com/RobotWebTools/rosbridge_suite.git',                      version: develop }
+- git: {local-name: src/rosauth,                           uri: 'https://github.com/GT-RAIL/rosauth.git',                                    version: develop }
+- git: {local-name: src/chris_create_behaviors,            uri: 'https://github.com/CNURobotics/chris_create_behaviors.git',                 version: kinetic_devel }
+- git: {local-name: src/flexible_navigation,               uri: 'https://github.com/CNURobotics/flexible_navigation.git',                    version: kinetic_devel }
+- git: {local-name: src/chris_create_flexible_navigation,  uri: 'https://github.com/CNURobotics/chris_create_flexible_navigation.git',       version: kinetic_devel }
+- git: {local-name: src/sbpl_lattice_planner,              uri: 'https://github.com/CNURobotics/sbpl_lattice_planner.git',                   version: python_prim }
+- git: {local-name: external/sbpl,                         uri: 'https://github.com/CNURobotics/sbpl.git',                                   version: ros_build }

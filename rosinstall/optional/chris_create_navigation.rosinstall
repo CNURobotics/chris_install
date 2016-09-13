@@ -1,0 +1,3 @@
+- git: {local-name: src/chris_create_navigation,    uri: 'https://github.com/CNURobotics/chris_create_navigation.git',    version: kinetic_devel }
+- git: {local-name: src/stamped_velocity_smoother,  uri: 'https://github.com/CNURobotics/stamped_velocity_smoother.git',  version: kinetic_devel }
+

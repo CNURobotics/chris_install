@@ -1,0 +1,2 @@
+- git: {local-name: src/chris_scripts, uri: 'https://github.com/CNURobotics/chris_scripts.git', version: kinetic_devel }
+
