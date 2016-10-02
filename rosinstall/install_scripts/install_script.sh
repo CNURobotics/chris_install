@@ -83,9 +83,10 @@ echo
 rosdep update
 rosdep install -r --from-path . --ignore-src
 
+# --- The symlink is no longer added, so removing the copy -----
 # remove symlink to write protected CMakefile and use a copy instead
-rm $WORKSPACE_ROOT/src/CMakeLists.txt
-cp /opt/ros/$ROS_DISTRO/share/catkin/cmake/toplevel.cmake $WORKSPACE_ROOT/src/CMakeLists.txt
+#rm $WORKSPACE_ROOT/src/CMakeLists.txt
+#cp /opt/ros/$ROS_DISTRO/share/catkin/cmake/toplevel.cmake $WORKSPACE_ROOT/src/CMakeLists.txt
 
 echo
 
