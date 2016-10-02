@@ -29,41 +29,30 @@ cd CHRISLab
 </pre>
 
 2. Clone the install setup  (*_Note: the dot at end is critical!_* )
-
  `git clone https://github.com/CNURobotics/chris_install.git .`
-
  * We are choosing to clone within our workspace root folder, as opposed to creating the folder during the clone.  The cloned folder should not be named chris_install.
 
 3. Change to correct branch
-
  `git checkout kinetic_devel`
-
  * This version has the CHRISLab iRobot Create setup, including the complete `flexibile_navigation` demonstration.
 
 4. Run the install script
-
  `./install.sh`
 
 5. Follow on-screen instructions to add the new setup to bashrc and re-source the terminal
 
 6. Test the setup
-
   `roscd`
-
   * you should be in the workspace root /src folder  (e.g. ~/CHRISLab/src )
 
 7. Go back to the original directory
-
  `cd $WORKSPACE_ROOT`
-
   * This should put you back where you started (e.g. ~/CHRISLab)
 
 8. Install the CHRISLab specific code
-
  `./rosinstall/install_scripts/install_chrislab.sh`
 
 9. Build and install any external libraries installed in the `$WORKSPACE_ROOT/external` folder
-
   * For example:
 <pre>
 cd $WORKSPACE_ROOT/external/sbpl
