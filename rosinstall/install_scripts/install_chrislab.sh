@@ -14,8 +14,8 @@ else
   wstool merge rosinstall/optional/chris_create_behaviors.rosinstall
   wstool merge rosinstall/optional/chris_create_navigation.rosinstall
   wstool merge rosinstall/optional/chris_third_party.rosinstall
-    
- 
+
+
 
   #--------------------- common code below here ----------------------------
   # Optionally check if update is requested. Not doing update saves some

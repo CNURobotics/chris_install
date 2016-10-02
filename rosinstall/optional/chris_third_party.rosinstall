@@ -1,3 +1,5 @@
-- git: {local-name: src/rosbridge_suite,        uri: 'https://github.com/RobotWebTools/rosbridge_suite.git',      version: develop }
-- git: {local-name: src/rosauth,                uri: 'https://github.com/GT-RAIL/rosauth.git',                    version: develop }
+# Older manual installs required before ROS Kinetic conversions - current in debian packages
+# So we have commented these out.  Leaving for example of use
+#- git: {local-name: src/rosbridge_suite,        uri: 'https://github.com/RobotWebTools/rosbridge_suite.git',      version: develop }
+#- git: {local-name: src/rosauth,                uri: 'https://github.com/GT-RAIL/rosauth.git',                    version: develop }
 
