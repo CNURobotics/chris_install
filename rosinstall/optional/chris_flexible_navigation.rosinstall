@@ -1,0 +1,9 @@
+- git: {local-name: src/chris_world_models,                uri: 'https://github.com/CNURobotics/chris_world_models.git',                     version: initial_devel }
+- git: {local-name: src/flexbe_behavior_engine,            uri: 'https://github.com/team-vigir/flexbe_behavior_engine.git',                  version: master }
+- git: {local-name: src/generic_flexbe_states,             uri: 'https://github.com/FlexBE/generic_flexbe_states.git',                       version: master }
+- git: {local-name: src/flexible_navigation,               uri: 'https://github.com/CNURobotics/flexible_navigation.git',                    version: kinetic_devel }
+- git: {local-name: src/sbpl_lattice_planner,              uri: 'https://github.com/CNURobotics/sbpl_lattice_planner.git',                   version: python_prim }
+- git: {local-name: external/sbpl,                         uri: 'https://github.com/CNURobotics/sbpl.git',                                   version: ros_build }
+- git: {local-name: src/simple_message_to_tf,              uri: 'https://github.com/CNURobotics/simple_message_to_tf.git',                   version: kinetic_devel }
+- git: {local-name: src/stamped_velocity_smoother,         uri: 'https://github.com/CNURobotics/stamped_velocity_smoother.git',              version: kinetic_devel }
+- git: {local-name: src/stamped_cmd_vel_mux,               uri: 'https://github.com/CNURobotics/stamped_cmd_vel_mux.git',                    version: initial_devel }

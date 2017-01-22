@@ -33,7 +33,7 @@ echo
 
 # find an installation of ROS
 if [ -z "$ROS_DISTRO" ]; then
-    _ROS_DISTROS="jade"
+    _ROS_DISTROS="kinetic"
 
     # use basename of the current folder as default ROS distro
     ROS_DISTRO=$(basename $(cd `dirname $0`; pwd))
@@ -94,7 +94,9 @@ echo
 cat >setup.bash <<EOF
 #!/bin/bash
 # automated generated file
+export ROS_HOSTNAME=$HOSTNAME
 . $WORKSPACE_ROOT/devel/setup.bash
+echo "Set up ROS workspace for \$WORKSPACE_ROOT@\$ROS_HOSTNAME"
 EOF
 
 . $WORKSPACE_ROOT/setup.bash
@@ -125,4 +127,3 @@ packages) using the wstool command.
 ===================================================================
 
 EOF
-

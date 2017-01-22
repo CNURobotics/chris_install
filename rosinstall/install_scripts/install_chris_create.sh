@@ -12,6 +12,11 @@ else
   # List the rosinstall files containing any packages we wish to install here
   wstool merge rosinstall/optional/chris_flexible_navigation.rosinstall
   wstool merge rosinstall/optional/chris_third_party.rosinstall
+  wstool merge rosinstall/optional/chris_create.rosinstall
+  wstool merge rosinstall/optional/chris_create_behaviors.rosinstall
+  wstool merge rosinstall/optional/chris_create_navigation.rosinstall
+
+
 
   #--------------------- common code below here ----------------------------
   # Optionally check if update is requested. Not doing update saves some

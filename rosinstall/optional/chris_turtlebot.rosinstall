@@ -1,0 +1,21 @@
+# Standard Turtlebot packages required for CHRISLab setup
+- git: {local-name: src/turtlebot,                  uri: 'https://github.com/turtlebot/turtlebot.git',              version: kinetic }
+- git: {local-name: src/turtlebot_msgs,             uri: 'https://github.com/turtlebot/turtlebot_msgs.git',         version: indigo }
+- git: {local-name: src/turtlebot_simulator,        uri: 'https://github.com/turtlebot/turtlebot_simulator.git',    version: indigo }
+- git: {local-name: src/kobuki_desktop,             uri: 'https://github.com/yujinrobot/kobuki_desktop.git',        version: kinetic }
+- git: {local-name: src/kobuki_msgs,                uri: 'https://github.com/yujinrobot/kobuki_msgs.git',           version: kinetic }
+- git: {local-name: src/kobuki_core,                uri: 'https://github.com/yujinrobot/kobuki_core.git',           version: kinetic }
+- git: {local-name: src/kobuki,                     uri: 'https://github.com/yujinrobot/kobuki.git',                version: kinetic }
+- git: {local-name: src/ecl_core,                   uri: 'https://github.com/stonier/ecl_core.git',                 version: devel }
+- git: {local-name: src/ecl_navigation,             uri: 'https://github.com/stonier/ecl_navigation.git',           version: devel }
+# Custom package for CHRISLab software
+- git: {local-name: src/gazebo_ros_pkgs,            uri: 'https://github.com/CNURobotics/gazebo_ros_pkgs.git',                 version: fix_duplicate_tf_prefix_526 }
+- git: {local-name: src/slam_gmapping,              uri: 'https://github.com/CNURobotics/slam_gmapping.git',                   version: consistent_tf_prefix_handling }
+- git: {local-name: src/chris_ros_turtlebot,        uri: 'https://github.com/CNURobotics/chris_ros_turtlebot.git',        version: kinetic_devel }
+- git: {local-name: src/chris_turtlebot_navigation, uri: 'https://github.com/CNURobotics/chris_turtlebot_navigation.git', version: kinetic_devel }
+- git: {local-name: src/chris_turtlebot_flexible_navigation, uri: 'https://github.com/CNURobotics/chris_turtlebot_flexible_navigation.git', version: kinetic_devel }
+# Optional Yujin system files
+#- git: {local-name: src/turtlebot_interactions,    uri: 'https://github.com/turtlebot/turtlebot_interactions.git', version: indigo }
+#- git: {local-name: src/turtlebot_apps,            uri: 'https://github.com/turtlebot/turtlebot_apps.git',         version: indigo }
+#- git: {local-name: src/yocs_msgs,                 uri: 'https://github.com/yujinrobot/yocs_msgs.git',             version: devel }
+#- git: {local-name: src/yujin_ocs,                 uri: 'https://github.com/yujinrobot/yujin_ocs.git',             version: kinetic }
