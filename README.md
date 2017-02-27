@@ -50,6 +50,7 @@ cd CHRISLab
   * This should put you back where you started (e.g. ~/CHRISLab)
 
 8. Install the CHRISLab specific code
+ * The most complete demonstration instructions can be found at https://github.com/CNURobotics/chris_turtlebot_flexible_navigation
  * `./rosinstall/install_scripts/install_chrislab.sh` for just base software, or
  * `./rosinstall/install_scripts/install_chris_turtlebot.sh` for base + Turtlebot specific, or
  * `./rosinstall/install_scripts/install_chris_create.sh` for base + Create specific
