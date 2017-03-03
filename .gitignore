@@ -13,6 +13,5 @@ scripts/
 rosinstall/optional/custom
 .catkin_tools
 logs/
+videos/
 external/
-
-
