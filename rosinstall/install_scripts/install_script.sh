@@ -46,14 +46,17 @@ if [ -z "$ROS_DISTRO" ]; then
         read ROS_DISTRO
     fi
 
-    if [ ! -r /opt/ros/$ROS_DISTRO/setup.sh ]; then
-        echo "Directory /opt/ros/$ROS_DISTRO does not exists!"
-        exit 1
-    fi
-
-    source /opt/ros/$ROS_DISTRO/setup.sh
-    echo
 fi
+
+# Check to see if this distro actually exists
+if [ ! -r /opt/ros/$ROS_DISTRO/setup.sh ]; then
+    echo "Directory /opt/ros/$ROS_DISTRO does not exists!"
+    exit 1
+fi
+
+echo " Source the base $ROS_DISTRO setup for clean install ..."
+source /opt/ros/$ROS_DISTRO/setup.sh
+echo
 
 # make sure package dependencies are installed
 source $WORKSPACE_ROOT/rosinstall/install_scripts/install_package_dependencies.sh
