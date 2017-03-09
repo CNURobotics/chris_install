@@ -121,7 +121,7 @@ You can setup your current shell's environment by entering
 
     source $WORKSPACE_ROOT/setup.bash
 
-or by execute the below command this command to add the workspace setup to your
+or by executing the below command to add the workspace setup to your
 .bashrc file for automatic setup on each invocation of an interactive shell:
 
     echo "source $WORKSPACE_ROOT/setup.bash" >> ~/.bashrc
