@@ -115,6 +115,7 @@ mkdir -p $WORKSPACE_ROOT/logs
 cat <<EOF
 
 ===================================================================
+
 Workspace initialization completed.
 You can setup your current shell's environment by entering
 
@@ -125,8 +126,16 @@ or by execute the below command this command to add the workspace setup to your
 
     echo "source $WORKSPACE_ROOT/setup.bash" >> ~/.bashrc
 
-You can also modify your workspace config (e.g. for adding additional repositories or
-packages) using the wstool command.
+ROS Networking Note:
+This setup.bash script sets the ROS_HOSTNAME of this machine to the HOSTNAME of this machine.
+For single machine testing, you might want to change this to "localhost" by editing
+$WORKSPACE_ROOT/setup.bash
+
+You can modify your workspace config (e.g. for adding additional repositories or
+packages) by using the wstool command (http://wiki.ros.org/wstool).
+See the system install scripts in $WORKSPACE_ROOT/rosinstall/install_scripts and
+example rosinstall files in $WORKSPACE_ROOT/rosinstall/optional for example usage.
+
 ===================================================================
 
 EOF
