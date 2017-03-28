@@ -1,5 +1,5 @@
-- git: {local-name: src/flexbe_app,                        uri: 'https://github.com/FlexBE/flexbe_app.git',                                  version: master }
-- git: {local-name: src/flexbe_behavior_engine,            uri: 'https://github.com/team-vigir/flexbe_behavior_engine.git',                  version: feature/flexbe_app }
+- git: {local-name: src/flexbe_app,                        uri: 'https://github.com/FlexBE/flexbe_app.git',                                  version: develop }
+- git: {local-name: src/flexbe_behavior_engine,            uri: 'https://github.com/team-vigir/flexbe_behavior_engine.git',                  version: feature/mirror_rework }
 - git: {local-name: src/generic_flexbe_states,             uri: 'https://github.com/FlexBE/generic_flexbe_states.git',                       version: master }
 - git: {local-name: src/chris_world_models,                uri: 'https://github.com/CNURobotics/chris_world_models.git',                     version: initial_devel }
 - git: {local-name: src/flexible_navigation,               uri: 'https://github.com/CNURobotics/flexible_navigation.git',                    version: kinetic_devel }
