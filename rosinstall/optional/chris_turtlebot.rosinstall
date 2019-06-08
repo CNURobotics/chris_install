@@ -6,8 +6,8 @@
 - git: {local-name: src/kobuki_msgs,                uri: 'https://github.com/yujinrobot/kobuki_msgs.git',           version: kinetic }
 - git: {local-name: src/kobuki_core,                uri: 'https://github.com/yujinrobot/kobuki_core.git',           version: kinetic }
 - git: {local-name: src/kobuki,                     uri: 'https://github.com/yujinrobot/kobuki.git',                version: kinetic }
-- git: {local-name: src/ecl_core,                   uri: 'https://github.com/stonier/ecl_core.git',                 version: devel }
-- git: {local-name: src/ecl_navigation,             uri: 'https://github.com/stonier/ecl_navigation.git',           version: devel }
+- git: {local-name: src/ecl_core,                   uri: 'https://github.com/stonier/ecl_core.git',                 version: release/0.61-indigo-kinetic }
+- git: {local-name: src/ecl_navigation,             uri: 'https://github.com/stonier/ecl_navigation.git',           version: release/0.60-indigo-kinetic }
 # Custom package for CHRISLab software
 - git: {local-name: src/gazebo_ros_pkgs,            uri: 'https://github.com/CNURobotics/gazebo_ros_pkgs.git',                 version: fix_duplicate_tf_prefix_526 }
 - git: {local-name: src/slam_gmapping,              uri: 'https://github.com/CNURobotics/slam_gmapping.git',                   version: consistent_tf_prefix_handling }
