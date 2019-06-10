@@ -6,8 +6,8 @@ Computer Setup
 --------------
 
  * Follow the [ROS Installation] instructions for setting up your ROS system on Ubuntu.
-  * This system has been tested on ROS Kinetic Release on `Ubuntu 16.04`.
-  * We recommend `ros-kinetic-desktop-full` as the base for this system; it includes most of the required packages, including the Gazebo simulator for testing.
+  * This system has been tested on ROS Melodic Release on `Ubuntu 18.04`.
+  * We recommend `ros-melodic-desktop-full` as the base for this system; it includes most of the required packages, including the Gazebo simulator for testing.
  * Install the [catkin_tools] package.
   * `sudo apt-get install python-catkin-tools`
   * This is required by many of our scripts, and is generally preferred over the standard catkin_build system
@@ -20,7 +20,7 @@ Computer Setup
 CHRISLab Software Setup
 -----------------------
 
-#### *If installing a new workspace, remove existing workspace setup from .bashrc, and reopen terminal sourcing only the /opt/ros/kinetic/setup.bash prior to running this script.*
+#### *If installing a new workspace, remove existing workspace setup from .bashrc,  and reopen terminal sourcing only the /opt/ros/melodic/setup.bash prior to running this script.*
 
 1. Create workspace root folder (e.g. ~/CHRISLab)  and change to that directory
 <pre>
@@ -33,7 +33,7 @@ cd CHRISLab
  * We are choosing to clone within our workspace root folder, as opposed to creating the folder during the clone.  The cloned folder should not be named chris_install.
 
 3. Change to correct branch
- `git checkout kinetic_devel`
+ `git checkout melodic_devel`
  * This version has the CHRISLab iRobot Create and Kobuki-based Turtlebot setup, including the complete `flexible_navigation` demonstration.
 
 4. Run the install script

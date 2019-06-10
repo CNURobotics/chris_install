@@ -1,2 +1,1 @@
-- git: {local-name: src/chris_scripts, uri: 'https://github.com/CNURobotics/chris_scripts.git', version: kinetic_devel }
-
+- git: {local-name: src/chris_scripts, uri: 'https://github.com/CNURobotics/chris_scripts.git', version: feature/melodic_upgrade }
