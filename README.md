@@ -40,7 +40,7 @@ cd CHRISLab
       * Alternately, you could replaced dot ('.') with desired name of the workspace and clone from home directory (skipping step 1 above)
 
 3. Change to correct branch
- * e.g., `git checkout humble-devel-github`
+ * e.g., `git checkout humble-devel`
  * **Note: This is for the public CNURobotics GitHub Server for development**
  * This version has options for selectively installing the standard ROS 2 Turtlebot3 and CHRISLab Kobuki-based Turtlebot2 demonstrations for
  `flexible_navigation` and `flexible_behavior_trees` demonstrations.
