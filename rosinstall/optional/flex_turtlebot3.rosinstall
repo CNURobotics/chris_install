@@ -2,7 +2,7 @@
 
 # Open-source development repos
 - git: {local-name: src/flex_nav_turtlebot3_demo, uri: 'https://github.com/CNURobotics/flex_nav_turtlebot3_demo.git', version: ros2-devel-alpha }
-- git: {local-name: src/flex_bt_turtlebot3_demo,  uri: 'https://github.com/CNURobotics/flex_bt_turtlebot3_demo.git', version: humble-tbot3-only}
+- git: {local-name: src/flex_bt_turtlebot_demo,   uri: 'https://github.com/CNURobotics/flex_bt_turtlebot_demo.git',   version: humble-devel-beta}
 
 # Third party pending official ROS release
 - git: {local-name: src/turtlebot3, uri: 'https://github.com/ROBOTIS-GIT/turtlebot3.git', version: humble-devel }
