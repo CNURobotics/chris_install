@@ -1,0 +1,16 @@
+*~
+.rosinstall
+.rosinstall.bak
+.catkin_workspace
+.ssh/
+build/
+log/
+install/
+setup.bash
+src/
+stacks/
+scripts/
+rosinstall/optional/custom
+logs/
+videos/
+external/
