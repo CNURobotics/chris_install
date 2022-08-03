@@ -55,13 +55,13 @@ cd CHRISLab
   * you should be in the workspace root  (e.g. ~/CHRISLab )
 
 7. Install the CHRISLab specific code by choosing one of the following
- * `./rosinstall/install_scripts/install_flex_base.sh` for just base software without demonstrations, or
+ * `./rosinstall/install_scripts/install_flex_base.sh` for just base FlexBE-based software without demonstrations, or
  * `./rosinstall/install_scripts/install_flex_turtlebot3.sh` for base + Turtlebot 3 Simulation demonstration setup
  * `./rosinstall/install_scripts/install_chris_turtlebot2.sh` for base + CHRISLab specific Turtlebot 2 simulation and hardware setup
 
   For basic demonstration with minimal dependencies, choose the `install_flex_turtlebot3.sh` installation.
 
-  The installations can be run separated with the required packages merged in the rosinstall files.
+  The installation scripts can be run separated with the required packages merged in the rosinstall files.
 
 8. Build and install any external libraries installed in the `$WORKSPACE_ROOT/external` folder
   * For example:
