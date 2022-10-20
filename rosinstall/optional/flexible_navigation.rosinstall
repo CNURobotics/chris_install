@@ -1,5 +1,5 @@
 # Open-source development repos
 - git: {local-name: src/flexbe_app,                   uri: 'https://github.com/FlexBE/flexbe_app.git',                   version: ros2-devel }
-- git: {local-name: src/flexible_navigation,          uri: 'https://github.com/FlexBE/flexible_navigation.git',          version: ros2-devel }
 - git: {local-name: src/flexbe_behavior_engine,       uri: 'https://github.com/FlexBE/flexbe_behavior_engine.git',       version: ros2-devel }
+- git: {local-name: src/flexible_navigation,          uri: 'https://github.com/FlexBE/flexible_navigation.git',          version: ros2-devel }
 - git: {local-name: src/flexible_behavior_trees,      uri: 'https://github.com/FlexBE/flexible_behavior_trees.git',      version: ros2-devel }

@@ -86,10 +86,6 @@ export ROS_DOMAIN_ID=113
 export WORKSPACE_ROOT=$WORKSPACE_ROOT
 export TURTLEBOT3_MODEL=burger
 
-# Dealing with https://github.com/ros-planning/navigation2/issues/3014 #2489 and #3018
-echo "Changing default DDS to Cyclone due to Nav 2 issues (#3014, #2489, #3018)!"
-export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
-
 if [ -f "${WORKSPACE_ROOT}/install/setup.bash" ];
 then
   echo "Setting up ROS workspace ..."
@@ -101,6 +97,9 @@ fi
 
 echo "Set up ROS 2 \${ROS_DISTRO} workspace for \${WORKSPACE_ROOT}@DDS:\$ROS_DOMAIN_ID"
 
+# Dealing with https://github.com/ros-planning/navigation2/issues/3014 , #2489, and #3018
+echo "Changing default DDS to Cyclone due to Nav 2 issues (#3014, #2489, #3018)!"
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 
 # Define relevant environment variables
 # The following are used by some launch scripts
@@ -111,6 +110,7 @@ echo "Use sim time =\${USE_SIM_TIME}"
 
 export FLEX_NAV_SETUP=flex # (e.g. flex, flex_multi_level)
 echo "FLEX_NAV setup=\${FLEX_NAV_SETUP} ..."
+
 
 export LOCALIZATION=slam # (e.g. slam, amcl, or cartographer)
 echo "Localization setup uses \${LOCALIZATION}"

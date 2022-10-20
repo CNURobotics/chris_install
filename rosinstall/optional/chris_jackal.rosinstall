@@ -1,6 +1,6 @@
 # Standard Jackal packages required for CHRISLab setup
-# Currently untested under ROS 2 as of 1-July-22
-- git: {local-name: src/twist_mux,                           uri: 'https://github.com/CNURobotics/twist_mux.git',                               version: cnu_melodic_devel}
-- git: {local-name: src/chris_ros_jackal,                    uri: 'https://github.com/CNURobotics/chris_ros_jackal.git',                   version: turtlebot_conversion }
-- git: {local-name: src/chris_jackal_navigation,             uri: 'https://github.com/CNURobotics/chris_jackal_navigation.git',            version: turtlebot_conversion }
-- git: {local-name: src/chris_jackal_flexible_navigation,    uri: 'https://github.com/CNURobotics/chris_jackal_flexible_navigation.git',   version: turtlebot_conversion }
+# Currently have not been converted to ROS 2 as of 19-Oct-22
+#- git: {local-name: src/twist_mux,                           uri: 'https://github.com/CNURobotics/twist_mux.git',                          version: cnu_melodic_devel}
+#- git: {local-name: src/chris_ros_jackal,                    uri: 'https://github.com/CNURobotics/chris_ros_jackal.git',                   version: turtlebot_conversion }
+#- git: {local-name: src/chris_jackal_navigation,             uri: 'https://github.com/CNURobotics/chris_jackal_navigation.git',            version: turtlebot_conversion }
+#- git: {local-name: src/chris_jackal_flexible_navigation,    uri: 'https://github.com/CNURobotics/chris_jackal_flexible_navigation.git',   version: turtlebot_conversion }

@@ -1,6 +1,13 @@
 # CNU Robotics CHRISLab ROS Workspace Installation
 
-Install and setup files for the basic setup of our software.
+Install and setup files for the basic setup of our software including ROS 2 release versions of
+[FlexBE], including [FlexBE App] and [FlexBE Behavior Engine], along with the
+extensions including [Flexible Navigation], and [Flexible Behavior Trees].
+
+This installation includes options for installing demonstrations using
+Turtlebot3 ([FlexNav Turtlebot3] and [FlexBT Turtlebot3])  and
+the customized CHRISLab Kobuki Turtlebot2 ([FlexNav Turtlebot2] and [FlexBT Turtlebot2]).
+
 
 Computer Setup
 --------------
@@ -14,8 +21,6 @@ Computer Setup
   * `sudo apt-get install python3-wstool`
   * Our install script (below) uses rosinstall tools
  * Install your favorite editor or IDE. (e.g. atom, QtCreator, CLion, ...)
-
-
 
 
 CNURobotics Software Setup
@@ -32,16 +37,14 @@ cd CHRISLab
 </pre>
 
 2. Clone the install setup
- * **Note: This is for the public CNURobotics GitHub Server for development**
  * `git clone https://github.com/CNURobotics/chris_install.git .`
     * *_Note: the dot at end of below command is critical!_*
       * We are choosing to clone within our workspace root folder, as opposed to creating the folder during the clone.  
         * The cloned folder should *NOT* be named chris_install.
-      * Alternately, you could replaced dot ('.') with desired name of the workspace and clone from home directory (skipping step 1 above)
+      * Alternately, you could replaced dot ('.') with desired name of the workspace (e.g., `CHRISLab`) and clone from home directory (skipping step 1 above)
 
 3. Change to correct branch
- * e.g., `git checkout humble-devel`
- * **Note: This is for the public CNURobotics GitHub Server for development**
+ * e.g., `git checkout ros2-devel`
  * This version has options for selectively installing the standard ROS 2 Turtlebot3 and CHRISLab Kobuki-based Turtlebot2 demonstrations for
  `flexible_navigation` and `flexible_behavior_trees` demonstrations.
 
@@ -61,7 +64,7 @@ cd CHRISLab
 
   For basic demonstration with minimal dependencies, choose the `install_flex_turtlebot3.sh` installation.
 
-  The installation scripts can be run separated with the required packages merged in the rosinstall files.
+  The installation scripts can be run separately with the required packages merged in the rosinstall files.
 
 8. Build and install any external libraries installed in the `$WORKSPACE_ROOT/external` folder
   * For example:
@@ -91,3 +94,12 @@ ccb
 10. Enjoy!
 
 [ROS Installation]: https://docs.ros.org
+[FlexBE]: https://flexbe.github.io
+[FlexBE App]: https://github.com/FlexBE/flexbe_app
+[FlexBE Behavior Engine]: https://github.com/FlexBE/flexbe_behavior_engine
+[Flexible Navigation]: https://github.com/FlexBE/flexible_navigation
+[Flexible Behavior Trees]: https://github.com/FlexBE/flexible_behavior_trees
+[FlexNav Turtlebot3]: https://github.com/FlexBE/flex_nav_turtlebot3_demo.git
+[FlexBT Turtlebot3]: https://github.com/FlexBE/flex_bt_turtlebot_demo.git
+[FlexNav Turtlebot2]: https://github.com/CNURobotics/flex_nav_turtlebot2_demo.git
+[FlexBT Turtlebot2]: https://github.com/CNURobotics/flex_bt_turtlebot2_demo.git

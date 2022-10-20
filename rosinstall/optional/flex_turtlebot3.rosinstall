@@ -1,5 +1,3 @@
-# Standard Turtlebot3 packages required for Flexible Navigation and Behavior Trees
-
-# Open-source development repos
+# Standard Turtlebot3 packages required for Flexible Navigation and Behavior Trees demonstrations
 - git: {local-name: src/flex_nav_turtlebot3_demo, uri: 'https://github.com/FlexBE/flex_nav_turtlebot3_demo.git', version: ros2-devel}
 - git: {local-name: src/flex_bt_turtlebot_demo,   uri: 'https://github.com/FlexBE/flex_bt_turtlebot_demo.git',   version: ros2-devel}

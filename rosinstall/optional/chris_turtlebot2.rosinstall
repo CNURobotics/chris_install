@@ -1,18 +1,19 @@
 # Standard Turtlebot2 packages required for CHRISLab demostration setup
 
 # Open-source development repos
-- git: {local-name: src/ball_detector,            uri: 'https://github.com/CNURobotics/ball_detector.git',            version: humble-demo }
+- git: {local-name: src/ball_detector,            uri: 'https://github.com/CNURobotics/ball_detector.git',            version: ros2-devel }
 - git: {local-name: src/chris_ros_turtlebot2,     uri: 'https://github.com/CNURobotics/chris_ros_turtlebot2.git ',    version: ros2-devel }
-- git: {local-name: src/chris_world_models,       uri: 'https://github.com/CNURobotics/chris_world_models.git ',      version: humble-ros2-devel }
-- git: {local-name: src/flex_nav_turtlebot2_demo, uri: 'https://github.com/CNURobotics/flex_nav_turtlebot2_demo.git', version: humble-demo }
-- git: {local-name: src/image_pipeline,           uri: 'https://github.com/CNURobotics/image_pipeline.git',           version: rolling-image-flip }
-- git: {local-name: src/openni2_camera,           uri: 'https://github.com/CNURobotics/openni2_camera.git',           version: debug-astra-galactic }
+- git: {local-name: src/chris_world_models,       uri: 'https://github.com/CNURobotics/chris_world_models.git ',      version: ros2-devel }
+- git: {local-name: src/flex_nav_turtlebot2_demo, uri: 'https://github.com/CNURobotics/flex_nav_turtlebot2_demo.git', version: ros2-devel }
+- git: {local-name: src/flex_bt_turtlebot2_demo,  uri: 'https://github.com/CNURobotics/flex_bt_turtlebot2_demo.git',  version: ros2-devel }
+- git: {local-name: src/image_pipeline,           uri: 'https://github.com/CNURobotics/image_pipeline.git',           version: humble-image-flip }
+- git: {local-name: src/openni2_camera,           uri: 'https://github.com/CNURobotics/openni2_camera.git',           version: astra-humble }
 
 # Manual installs required before ROS Humble conversions are released in Debian packages
-- git: {local-name: src/kobuki_ros_interfaces,    uri: 'https://github.com/kobuki-base/kobuki_ros_interfaces.git',         version: devel }
-- git: {local-name: src/sophus,                   uri: 'https://github.com/stonier/sophus.git',                            version: release/1.2.x }
-- git: {local-name: src/ecl_tools,                uri: 'https://github.com/stonier/ecl_tools.git',                         version: devel }
-- git: {local-name: src/ecl_lite,                 uri: 'https://github.com/CNURobotics/ecl_lite.git',                      version: humble-test }
-- git: {local-name: src/ecl_core.git,             uri: 'https://github.com/CNURobotics/ecl_core.git',                      version: humble-test }
-- git: {local-name: src/kobuki_ros,               uri: 'https://github.com/CNURobotics/kobuki_ros.git',                    version: humble-test }
-- git: {local-name: src/kobuki_core,              uri: 'https://github.com/kobuki-base/kobuki_core.git',                   version: devel }
+- git: {local-name: src/sophus,                   uri: 'https://github.com/stonier/sophus.git',                        version: release/1.2.x }
+- git: {local-name: src/ecl_tools,                uri: 'https://github.com/stonier/ecl_tools.git',                     version: devel }
+- git: {local-name: src/ecl_lite,                 uri: 'https://github.com/stonier/ecl_lite.git',                      version: devel}
+- git: {local-name: src/ecl_core.git,             uri: 'https://github.com/stonier/ecl_core.git',                      version: devel}
+- git: {local-name: src/kobuki_ros,               uri: 'https://github.com/CNURobotics/kobuki_ros.git',                version: humble-test }
+- git: {local-name: src/kobuki_core,              uri: 'https://github.com/kobuki-base/kobuki_core.git',               version: devel }
+- git: {local-name: src/kobuki_ros_interfaces,    uri: 'https://github.com/kobuki-base/kobuki_ros_interfaces.git',     version: devel }

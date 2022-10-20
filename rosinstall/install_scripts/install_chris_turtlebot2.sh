@@ -7,7 +7,7 @@ if [ -z $WORKSPACE_ROOT ]; then
   exit 1
 fi
 
-echo "Installing CHRISLab Turtlebot software setup ..."
+echo "Installing simulation and hardware setups for FlexBE demonstrations with CHRISLab Turtlebot2 software setup ..."
 
 cd $WORKSPACE_ROOT
 
