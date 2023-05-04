@@ -1,7 +1,7 @@
 - git: {local-name: src/flexbe_app,                        uri: 'https://github.com/FlexBE/flexbe_app.git',                                  version: master }
 - git: {local-name: src/flexbe_behavior_engine,            uri: 'https://github.com/CNURobotics/flexbe_behavior_engine.git',                 version: feature/1_2_1_mirror_rework }
 - git: {local-name: src/generic_flexbe_states,             uri: 'https://github.com/FlexBE/generic_flexbe_states.git',                       version: master }
-- git: {local-name: src/chris_world_models,                uri: 'https://github.com/CNURobotics/chris_world_models.git',                     version: initial_devel }
+- git: {local-name: src/chris_world_models,                uri: 'https://github.com/CNURobotics/chris_world_models.git',                     version: kinetic_devel }
 - git: {local-name: src/flexible_navigation,               uri: 'https://github.com/CNURobotics/flexible_navigation.git',                    version: kinetic_devel }
 - git: {local-name: src/sbpl_lattice_planner,              uri: 'https://github.com/CNURobotics/sbpl_lattice_planner.git',                   version: kinetic_devel_cnu }
 - git: {local-name: src/sbpl,                              uri: 'https://github.com/CNURobotics/sbpl.git',                                   version: ros_build_update }
