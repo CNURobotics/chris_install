@@ -1,3 +1,0 @@
-- git: {local-name: src/chris_ros_create,       uri: 'https://github.com/CNURobotics/chris_ros_create.git',     version: kinetic_devel }
-- git: {local-name: src/usb_cam,                uri: 'https://github.com/CNURobotics/usb_cam.git',              version: add_sync_topic }
-- git: {local-name: src/chris_create_bringup,   uri: 'https://github.com/CNURobotics/chris_create_bringup.git', version: kinetic_devel }

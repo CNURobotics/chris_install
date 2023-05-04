@@ -1,2 +1,0 @@
-- git: {local-name: src/chris_create_behaviors,            uri: 'https://github.com/CNURobotics/chris_create_behaviors.git',            version: kinetic_devel }
-- git: {local-name: src/chris_create_flexible_navigation,  uri: 'https://github.com/CNURobotics/chris_create_flexible_navigation.git',  version: kinetic_devel }
