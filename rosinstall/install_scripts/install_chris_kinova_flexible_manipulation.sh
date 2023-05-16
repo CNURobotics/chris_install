@@ -10,7 +10,7 @@ echo "Installing CHRISLab Flexible Manipulation demonstration software setup for
 cd $WORKSPACE_ROOT
 
 # List the rosinstall files containing any packages we wish to install here
-wstool merge -t . src/chris_kinova_flexible_manipulation/install/chris_kinova_flexible_manipulation.rosinstall
+wstool merge -t . rosinstall/optional/chris_kinova_flexible_manipulation.rosinstall
 
 #--------------------- common code below here ----------------------------
 # Optionally check if update is requested. Not doing update saves some

@@ -6,9 +6,9 @@ Computer Setup
 --------------
 
  * Follow the [ROS Installation] instructions for setting up your ROS system on Ubuntu.
-  * This system has been tested on ROS Melodic Release on `Ubuntu 18.04`.
-  * We recommend `ros-melodic-desktop-full` as the base for this system; it includes most of the required packages, including the Gazebo simulator for testing.
-  * `sudo apt install ros-melodic-desktop-full`
+  * This system has been tested on ROS Noetic Release on `Ubuntu 20.04`.
+  * We recommend `ros-noetic-desktop-full` as the base for this system; it includes most of the required packages, including the Gazebo simulator for testing.
+  * `sudo apt install ros-noetic-desktop-full`
  * Install the [catkin_tools] package.
   * `sudo apt install python-catkin-tools`
   * This is required by many of our scripts, and is generally preferred over the standard catkin_build system
@@ -21,7 +21,7 @@ Computer Setup
 CHRISLab Software Setup
 -----------------------
 
-#### *If installing a new workspace, remove existing workspace setup from .bashrc, and reopen terminal sourcing only the /opt/ros/melodic/setup.bash prior to running this script.*
+#### *If installing a new workspace, remove existing workspace setup from .bashrc, and reopen terminal sourcing only the /opt/ros/noetic/setup.bash prior to running this script.*
 
 1. Create workspace root folder (e.g. ~/CHRISLab)  and change to that directory
 <pre>
@@ -35,7 +35,7 @@ cd CHRISLab
    The cloned folder should not be named chris_install.
 
 3. Change to correct branch
- `git checkout melodic_devel`
+ `git checkout noetic-devel`
  * This version has the CHRISLab Kobuki-based Turtlebot setup, including the complete `flexible_navigation` demonstration.
 
 4. Run the install script

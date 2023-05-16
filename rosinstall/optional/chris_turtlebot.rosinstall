@@ -3,15 +3,15 @@
 - git: {local-name: src/turtlebot_msgs,             uri: 'https://github.com/turtlebot/turtlebot_msgs.git',         version: indigo }
 - git: {local-name: src/turtlebot_simulator,        uri: 'https://github.com/turtlebot/turtlebot_simulator.git',    version: indigo }
 - git: {local-name: src/kobuki,                     uri: 'https://github.com/yujinrobot/kobuki.git',                version: melodic }
-- git: {local-name: src/yujin_ocs,                  uri: 'https://github.com/yujinrobot/yujin_ocs.git',             version: release/0.8-melodic }
+- git: {local-name: src/yocs_msgs,                  uri: 'https://github.com/yujinrobot/yocs_msgs.git',             version: release/0.7-melodic }
+- git: {local-name: src/yujin_ocs,                  uri: 'https://github.com/CNURobotics/yujin_ocs.git',            version: feature/remove-ar-track-alvar }
 
-# These are required for Turtlebot 2, but now available under melodic distribution
+# These are required for Turtlebot 2, but now available under Noetic distribution
 #- git: {local-name: src/kobuki_desktop,             uri: 'https://github.com/yujinrobot/kobuki_desktop.git',        version: melodic }
 #- git: {local-name: src/kobuki_msgs,                uri: 'https://github.com/yujinrobot/kobuki_msgs.git',           version: melodic }
 #- git: {local-name: src/kobuki_core,                uri: 'https://github.com/yujinrobot/kobuki_core.git',           version: melodic }
 #- git: {local-name: src/ecl_core,                   uri: 'https://github.com/stonier/ecl_core.git',                 version: release/0.62-melodic }
 #- git: {local-name: src/ecl_navigation,             uri: 'https://github.com/stonier/ecl_navigation.git',           version: release/0.60-melodic }
-#- git: {local-name: src/yocs_msgs,                  uri: 'https://github.com/yujinrobot/yocs_msgs.git',             version: release/0.7-melodic }
 
 # Custom packages for CHRISLab software
 - git: {local-name: src/chris_world_models,                uri: 'https://github.com/CNURobotics/chris_world_models.git',                version: initial_devel }
@@ -19,9 +19,9 @@
 - git: {local-name: src/simple_message_to_tf,              uri: 'https://github.com/CNURobotics/simple_message_to_tf.git',              version: kinetic_devel }
 - git: {local-name: src/stamped_velocity_smoother,         uri: 'https://github.com/CNURobotics/stamped_velocity_smoother.git',         version: kinetic_devel }
 
-- git: {local-name: src/chris_ros_turtlebot,                 uri: 'https://github.com/CNURobotics/chris_ros_turtlebot.git',                 version: melodic_devel }
-- git: {local-name: src/chris_turtlebot_navigation,          uri: 'https://github.com/CNURobotics/chris_turtlebot_navigation.git',          version: melodic_devel }
-- git: {local-name: src/chris_turtlebot_flexible_navigation, uri: 'https://github.com/CNURobotics/chris_turtlebot_flexible_navigation.git', version: melodic_devel }
+- git: {local-name: src/chris_ros_turtlebot,                 uri: 'https://github.com/CNURobotics/chris_ros_turtlebot.git',                 version: noetic-devel }
+- git: {local-name: src/chris_turtlebot_navigation,          uri: 'https://github.com/CNURobotics/chris_turtlebot_navigation.git',          version: noetic-devel }
+- git: {local-name: src/chris_turtlebot_flexible_navigation, uri: 'https://github.com/CNURobotics/chris_turtlebot_flexible_navigation.git', version: noetic-devel }
 
 # Third party libraries used with CHRISLab Navigation setup
 - git: {local-name: src/sbpl_lattice_planner,              uri: 'https://github.com/CNURobotics/sbpl_lattice_planner.git',              version: melodic_devel_cnu }
