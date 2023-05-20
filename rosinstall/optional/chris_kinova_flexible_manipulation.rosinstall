@@ -6,4 +6,4 @@
 # CHRISLab specific
 - git: {  local-name: src/chris_kinova_flexible_manipulation,  uri: 'https://github.com/CNURobotics/chris_kinova_flexible_manipulation.git',  version: devel }
 - git: {  local-name: src/chris_kinova_bringup,                uri: 'https://github.com/CNURobotics/chris_kinova_bringup.git',                version: devel }
-- git: {  local-name: src/kinova-ros,                          uri: 'https://github.com/CNURobotics/kinova-ros.git',         version: feature/melodic-m1n6s200 }
+- git: {  local-name: src/kinova-ros,                          uri: 'https://github.com/CNURobotics/kinova-ros.git',         version: feature/noetic-m1n6s200 }
